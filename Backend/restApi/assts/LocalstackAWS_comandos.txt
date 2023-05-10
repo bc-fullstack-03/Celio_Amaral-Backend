@@ -1,0 +1,52 @@
+docker ps
+cd .\Downloads\demo\demo\
+docker comopose up --> Subir Localstack
+docker ps
+-- Conectar no localstack
+docker exec -it localstack_demo bash
+ls
+lacalstack status services --> Verficar serviços AWS
+-- Comando extra precisa do Python na máquina
+pip install localstack
+
+Utilizar localstack na AWS
+aws configure --profile default
+AWS Acess key name: mykey
+Defaul region name: us-west-2
+Defaul output: json
+aws configure list
+
+S3 Bucket (Armazenamento)
+aws s3 mb s3://demo-bucket --endpoint-url http://localhost:4566
+
+----------------------------------
+docker exec -it mongo_demo mongosh
+db.user.find()
+
+----------------------------------
+
+\mvnw clean package -DskipTests
+
+No arquivo pom.xml
+
+<groupId>com.sysmap</groupId>
+	<artifactId>restApi</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>restApi</name>
+
+Tirar o -SNAPSHOT
+<groupId>com.sysmap</groupId>
+	<artifactId>restApi</artifactId>
+	<version>0.0.1</version>
+	<name>restApi</name>
+
+Rodar Build
+docker-compose build
+docker images
+docker run celioamaral20/rest-Api -p 8085:8085
+
+Subir com mongodb e localstack
+docker compose up -d
+
+spring.data.mongodb.uri=mongodb://mongodb:27017/parrot_db_api
+
