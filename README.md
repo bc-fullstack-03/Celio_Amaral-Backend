@@ -40,7 +40,7 @@ Infelizmente não tive como fazer o build da aplicação no Docker, devido a fal
  
  - ### [Front-End](https://github.com/bc-fullstack-03/Celio_Amaral-Frontend)
  
- - ### Mobile
+ - ### [Mobile](https://github.com/bc-fullstack-03/Celio_Amaral-Mobile)
 
 ## Author
 - [@CelioAmaral](https://github.com/CelioAmaral)
