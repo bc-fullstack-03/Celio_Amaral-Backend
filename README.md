@@ -8,6 +8,7 @@ Projeto de uma api restfull para o desenvolvimento de uma rede social na SysMap 
     <td><img align="center" alt="Celio-Spring" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"></td>
     <td><img align="center" alt="Celio-MongoDB" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"></td>
     <td><img align="center" alt="Celio-Docker" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"></td>
+    <td><img align="center" alt="Celio-Insomnia" height="30" width="30" src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"></td>
   </tr>
  </table>
  
