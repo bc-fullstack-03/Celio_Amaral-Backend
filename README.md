@@ -31,6 +31,35 @@ git clone https://github.com/bc-fullstack-03/Celio_Amaral-Backend.git
 • Then open the terminal in the restApi folder that contains the docker-compose.yml file and type the following command:
 <p align="center"><pre>docker compose up -d</pre></p>
 
+#### Localstack
+
+• To successfully upload images to localstack, you need to run the following command:
+
+```shell
+docker exec -it localstack bash
+```
+
+• And inside localstack bash, run the following command:
+
+```shell
+aws configure --profile default
+```
+
+```shell
+AWS Access Key ID [None]: mykey
+AWS Secret Access Key [None]: mykey
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+• After that, you need to run the following command to create the bucket:
+
+```shell
+aws s3 mb s3://demo-bucket --endpoint-url http://localhost:4566/
+```
+
+#### Autenticação
+
 • Now that the <u>celioamaral20/rest-Api</u>, <u>mongo</u> and <u>localstack/localstack</u> image containers are running locally with the docker-compose. yml, it is now possible to use the application.
 
 • To use the application using the Swagger client and access the endpoint documentation, access the following URL in your browser:
